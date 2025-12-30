@@ -1,0 +1,59 @@
+{
+  "profiles": {
+    "solo_expert": {
+      "speaker_config": "solo_expert",
+      "outline_model": "ernie-4.5-turbo-32k",
+      "outline_provider": "erine",
+      "transcript_model": "ernie-4.5-turbo-32k",
+      "transcript_provider": "erine",
+      "num_segments": 3,
+      "language": "中文",
+      "dialect": "mandarin",
+      "default_briefing": "Create an educational and approachable explanation of the topic. Break down complex concepts into digestible segments and provide clear examples. Maintain an engaging teaching style throughout."
+    },
+    "business_analysis": {
+      "speaker_config": "business_analysts",
+      "outline_model": "ernie-4.5-turbo-32k",
+      "outline_provider": "erine",
+      "transcript_model": "ernie-4.5-turbo-32k",
+      "transcript_provider": "erine",
+      "num_segments": 2,
+      "language": "中文",
+      "dialect": "mandarin",
+      "default_briefing": "Provide a comprehensive business analysis covering market implications, strategic considerations, and practical business applications. Focus on actionable insights and real-world impact."
+    },
+    "diverse_panel": {
+      "speaker_config": "diverse_panel",
+      "outline_model": "ernie-4.5-turbo-32k",
+      "outline_provider": "erine",
+      "transcript_model": "ernie-4.5-turbo-32k",
+      "transcript_provider": "erine",
+      "num_segments": 4,
+      "language": "中文",
+      "dialect": "mandarin",
+      "default_briefing": "Create a dynamic multi-perspective discussion with diverse viewpoints. Encourage debate and exploration of different angles. Include both optimistic and skeptical perspectives to create engaging dialogue."
+    },
+    "tech-deepdrive": {
+      "speaker_config": "ai_researchers",
+      "outline_model": "ernie-4.5-turbo-32k",
+      "outline_provider": "erine",
+      "transcript_model": "ernie-4.5-turbo-32k",
+      "transcript_provider": "erine",
+      "num_segments": 2,
+      "language": "中文",
+      "dialect": "mandarin",
+      "default_briefing": "Create an engaging and informative discussion about technology topics. Focus on making complex concepts accessible while maintaining technical accuracy. Include diverse perspectives and practical implications."
+    },
+    "娱乐头条": {
+      "speaker_config": "soulx_demo",
+      "outline_model": "ernie-4.5-turbo-32k",
+      "outline_provider": "erine",
+      "transcript_model": "ernie-4.5-turbo-32k",
+      "transcript_provider": "erine",
+      "num_segments": 1,
+      "language": "中文",
+      "dialect": "cantonese",
+      "default_briefing": "播客节目名称 “娱乐头条\"， 该节目紧扣热点议题,  同时用用轻松、幽默、夸张、口语化聊天形式生成对话。"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+# Core dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.36.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Audio processing dependencies
+scipy>=1.11.0
+numpy>=1.24.0
+
+# API dependencies
+python-multipart>=0.0.6
+typing-extensions>=4.8.0
+
+# TTS dependencies
+# chattts>=0.1.0
+datasets>=2.0.0
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+langdetect>=1.0.9
+kokoro>=0.8.2
+soundfile
+misaki[en]
+misaki[zh]>=0.8.2
+accelerate
+
+
+# IndexTTS2 Requirements
+# Generated from pyproject.toml
+# Python >= 3.10 required
+
+# Core ML/AI dependencies
+transformers==4.52.1
+tokenizers==0.21.0
+safetensors==0.5.2
+
+# Audio processing
+librosa==0.10.2.post1
+descript-audiotools==0.7.2
+numba
+
+# Text processing
+jieba==0.42.1
+g2p-en==2.1.0
+sentencepiece>=0.2.1
+cn2an==0.5.22
+textstat>=0.7.10
+
+# Platform-specific text processing
+# Note: Install based on your platform:
+#   - Windows/Mac: pip install wetext>=0.0.9
+#   - Linux: pip install WeTextProcessing (or use wetext as fallback)
+wetext>=0.0.9
+# WeTextProcessing  # Uncomment for Linux, comment out wetext above
+
+# Data processing
+numpy==1.26.2
+pandas==2.3.2
+omegaconf>=2.3.0
+munch==4.0.0
+json5==0.10.0
+
+# Visualization and utilities
+matplotlib==3.8.2
+opencv-python==4.9.0.80
+tensorboard==2.9.1
+tqdm>=4.67.1
+
+# Model and framework
+modelscope==1.27.0
+keras==2.9.0
+einops>=0.8.1
+
+# Build tools
+cython==3.0.7
+
+# Media processing
+ffmpeg-python==0.2.0
+
+# Optional dependencies (uncomment if needed)
+# WebUI support
+# gradio==5.45.0
+
+# DeepSpeed support (requires CUDA-enabled PyTorch)
+# deepspeed==0.17.1
+

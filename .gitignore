@@ -1,0 +1,10 @@
+src/llm/models/
+src/llm/checkpoints/
+src/llm/pretrained_models/
+SoulX-Podcast-main/
+__pycache__/
+.env
+output/
+.idea/
+.venv-llm/
+.DS_Store

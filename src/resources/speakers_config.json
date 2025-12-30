@@ -1,0 +1,116 @@
+{
+  "profiles": {
+    "ai_researchers": {
+      "tts_provider": "v3api",
+      "tts_model": "tts-1",
+      "speakers": [
+        {
+          "name": "Sage",
+          "voice_id": "sage",
+          "backstory": "AI researcher with 15 years experience in machine learning and neural networks. Currently leads the AI Safety Initiative at Stanford University.",
+          "personality": "Analytical, methodical, asks probing questions about technical details and safety implications"
+        },
+        {
+          "name": "Alloy",
+          "voice_id": "alloy",
+          "backstory": "Tech journalist and podcast host who specializes in making complex AI topics accessible to general audiences.",
+          "personality": "Engaging, curious, excellent at explaining complex concepts in simple terms and connecting with audiences"
+        }
+      ]
+    },
+    "business_analysts": {
+      "tts_provider": "v3api",
+      "tts_model": "tts-1",
+      "speakers": [
+        {
+          "name": "Alexandra Hayes",
+          "voice_id": "nova",
+          "backstory": "Senior business analyst with MBA from Wharton. Specializes in technology market analysis and strategic consulting.",
+          "personality": "Strategic thinker, data-driven, focuses on practical business implications and market trends"
+        },
+        {
+          "name": "David Kim",
+          "voice_id": "ash",
+          "backstory": "Former startup founder turned venture capitalist. Has invested in 50+ technology companies over the past decade.",
+          "personality": "Pragmatic, entrepreneurial, excellent at identifying opportunities and potential challenges"
+        }
+      ]
+    },
+    "solo_expert": {
+      "tts_provider": "v3api",
+      "tts_model": "tts-1",
+      "speakers": [
+        {
+          "name": "Professor Feynman",
+          "voice_id": "shimmer",
+          "backstory": "Distinguished professor, loves to learn and has a passion for teaching. Has a knack for making complex topics accessible.",
+          "personality": "Approachable, excellent teacher who can break down complex topics into digestible segments"
+        }
+      ]
+    },
+    "diverse_panel": {
+      "tts_provider": "v3api",
+      "tts_model": "tts-1",
+      "speakers": [
+        {
+          "name": "Jessica Parker",
+          "voice_id": "shimmer",
+          "backstory": "A tech journalist, known for her bold and provocative questions.",
+          "personality": "Smart, deep and sharp questions"
+        },
+        {
+          "name": "Carlos Rodriguez",
+          "voice_id": "nova",
+          "backstory": "Successful Silicon Valley serial-entrepreneur",
+          "personality": "He is an optimist and believes in the power of tech to transform the world"
+        },
+        {
+          "name": "Maya Patel",
+          "voice_id": "fable",
+          "backstory": "Sociology researcher and expert in the human/machine symbiosis",
+          "personality": "She is a skeptic and questions the impact of technology on society"
+        }
+      ]
+    },
+    "index_tts_demo": {
+      "tts_provider": "indextts",
+      "tts_model": "index-tts",
+      "speakers": [
+        {
+          "name": "郭德纲",
+          "voice_id": "郭德纲",
+          "backstory": "天津人，自幼学艺。早年北漂艰难，曾穷困潦倒。1995年与人共创“北京相声大会”（后改名德云社），初期经营惨淡，2005年后凭借网络走红，带动相声复兴。",
+          "personality": "坚韧：屡遭挫折，始终坚守相声行当。\n尖锐：作品和言论常带讽刺，因此争议不断。\n传统：艺术上极为重视规矩和师承，致力于传承传统相声。"
+        },
+        {
+          "name": "甄嬛",
+          "voice_id": "custom",
+          "backstory": "入宫：因长相酷似皇帝已故爱妻（纯元皇后）而入选，初期避宠，后偶遇皇帝得宠。\n跌宕：盛宠时遭陷害，发现自己只是“替身”，心灰意冷，自请出宫修行。\n回宫：在宫外怀上果郡王骨肉，为复仇与生存，设计重回皇宫，最终斗倒所有敌人，成为太后。",
+          "personality": "初期：聪慧清高，渴望真心，带有理想主义。\n后期：果决狠辣，精于权谋，一切以生存和复仇为目标，最终成为宫廷规则的掌控者。\n核心总结：一个理想主义少女在残酷斗争中，被迫成长为铁血政治家的故事。",
+          "custom_voice": "/Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/resources/custom_voices/20251210_174431_5a37aeb9.wav",
+          "custom_voice_filename": "20251210_174431_5a37aeb9.wav"
+        }
+      ]
+    },
+    "soulx_demo": {
+      "tts_provider": "soulx",
+      "tts_model": "soulx",
+      "speakers": [
+        {
+          "name": "郭德纲",
+          "voice_id": "郭德纲",
+          "backstory": "天津人，自幼学艺。早年北漂艰难，曾穷困潦倒。1995年与人共创“北京相声大会”（后改名德云社），初期经营惨淡，2005年后凭借网络走红，带动相声复兴。",
+          "personality": "坚韧：屡遭挫折，始终坚守相声行当。\n尖锐：作品和言论常带讽刺，因此争议不断。\n传统：艺术上极为重视规矩和师承，致力于传承传统相声。"
+        },
+        {
+          "name": "甄嬛",
+          "voice_id": "女生_甄嬛",
+          "backstory": "入宫：因长相酷似皇帝已故爱妻（纯元皇后）而入选，初期避宠，后偶遇皇帝得宠。\n跌宕：盛宠时遭陷害，发现自己只是“替身”，心灰意冷，自请出宫修行。\n回宫：在宫外怀上果郡王骨肉，为复仇与生存，设计重回皇宫，最终斗倒所有敌人，成为太后。",
+          "personality": "初期：聪慧清高，渴望真心，带有理想主义。\n后期：果决狠辣，精于权谋，一切以生存和复仇为目标，最终成为宫廷规则的掌控者。\n核心总结：一个理想主义少女在残酷斗争中，被迫成长为铁血政治家的故事。",
+          "custom_voice": "/Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/resources/custom_voices/20251210_174431_5a37aeb9.wav",
+          "custom_voice_filename": "20251210_174431_5a37aeb9.wav"
+        }
+      ]
+    }
+  }
+}

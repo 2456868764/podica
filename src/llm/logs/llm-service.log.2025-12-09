@@ -1,0 +1,295 @@
+2025-12-09 18:56:52 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 18:56:52 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 18:56:52 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 18:56:52 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 18:56:52 - llm-service - INFO - [config.py:209] - Loading Kokoro voices
+2025-12-09 18:56:55 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 18:56:55 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 18:56:55 - llm-service - INFO - [tts.py:170] - Loading Kokoro TTS model...
+2025-12-09 18:56:55 - llm-service - INFO - [kokoro_tts.py:53] - Loading Kokoro TTS model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/models/hexgrad/Kokoro-82M-v1.1-zh/kokoro-v1_1-zh.pth config from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/models/hexgrad/Kokoro-82M-v1.1-zh/config.json
+2025-12-09 18:56:56 - llm-service - INFO - [kokoro_tts.py:56] - Kokoro TTS model loaded successfully
+2025-12-09 19:00:02 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 19:00:02 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 19:00:02 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 19:00:02 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 19:00:04 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 19:00:04 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 19:00:04 - llm-service - WARNING - [tts.py:258] - Unknown model index_tts, falling back to Kokoro
+2025-12-09 19:00:04 - llm-service - INFO - [tts.py:170] - Loading Kokoro TTS model...
+2025-12-09 19:00:04 - llm-service - INFO - [kokoro_tts.py:53] - Loading Kokoro TTS model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/models/hexgrad/Kokoro-82M-v1.1-zh/kokoro-v1_1-zh.pth config from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/models/hexgrad/Kokoro-82M-v1.1-zh/config.json
+2025-12-09 19:00:05 - llm-service - INFO - [kokoro_tts.py:56] - Kokoro TTS model loaded successfully
+2025-12-09 19:00:48 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 19:00:48 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 19:00:48 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 19:00:48 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 19:00:49 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 19:00:49 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 19:00:50 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 19:00:50 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 19:00:50 - llm-service - INFO - [index_tts.py:57] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 19:02:19 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 19:02:19 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 19:02:19 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 19:02:19 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 19:02:21 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 19:02:21 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 19:02:22 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 19:02:22 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 19:02:22 - llm-service - INFO - [index_tts.py:57] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 19:18:06 - llm-service - INFO - [index_tts.py:59] - IndexTTS pipeline voices loaded successfully
+2025-12-09 19:18:06 - llm-service - INFO - [tts.py:293] - IndexTTS model loaded successfully
+2025-12-09 19:18:06 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 19:18:06 - llm-service - INFO - [index_tts.py:57] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 19:18:46 - llm-service - INFO - [index_tts.py:59] - IndexTTS pipeline voices loaded successfully
+2025-12-09 19:18:46 - llm-service - INFO - [tts.py:293] - IndexTTS model loaded successfully
+2025-12-09 19:18:46 - llm-service - INFO - [service.py:203] - All models loaded successfully
+2025-12-09 19:40:04 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 19:40:04 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 19:40:04 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 19:40:04 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 19:40:06 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 19:40:06 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 19:40:07 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 19:40:07 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 19:40:07 - llm-service - INFO - [index_tts.py:57] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 19:40:36 - llm-service - INFO - [index_tts.py:59] - IndexTTS pipeline voices loaded successfully
+2025-12-09 19:40:36 - llm-service - INFO - [tts.py:293] - IndexTTS model loaded successfully
+2025-12-09 19:40:36 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 19:40:36 - llm-service - INFO - [index_tts.py:57] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 19:41:05 - llm-service - INFO - [index_tts.py:59] - IndexTTS pipeline voices loaded successfully
+2025-12-09 19:41:05 - llm-service - INFO - [tts.py:293] - IndexTTS model loaded successfully
+2025-12-09 19:41:05 - llm-service - INFO - [service.py:203] - All models loaded successfully
+2025-12-09 19:54:17 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 19:54:17 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 19:54:17 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 19:54:17 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 19:54:19 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 19:54:19 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 19:54:19 - llm-service - INFO - [index_tts.py:45] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 19:54:20 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 19:54:20 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 19:54:20 - llm-service - INFO - [index_tts.py:45] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 19:54:20 - llm-service - INFO - [index_tts.py:98] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 19:54:20 - llm-service - INFO - [index_tts.py:99] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 19:54:49 - llm-service - INFO - [index_tts.py:101] - IndexTTS pipeline voices loaded successfully
+2025-12-09 19:54:49 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 19:54:49 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 19:54:49 - llm-service - INFO - [index_tts.py:45] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 19:54:49 - llm-service - INFO - [index_tts.py:98] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 19:54:49 - llm-service - INFO - [index_tts.py:99] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 19:55:20 - llm-service - INFO - [index_tts.py:101] - IndexTTS pipeline voices loaded successfully
+2025-12-09 19:55:20 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 19:55:20 - llm-service - INFO - [service.py:203] - All models loaded successfully
+2025-12-09 19:57:05 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 19:57:05 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 19:57:05 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 19:57:05 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 19:57:07 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 19:57:07 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 19:57:07 - llm-service - INFO - [index_tts.py:45] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 19:57:08 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 19:57:08 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 19:57:08 - llm-service - INFO - [index_tts.py:45] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 19:57:08 - llm-service - INFO - [index_tts.py:98] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 19:57:08 - llm-service - INFO - [index_tts.py:99] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:02:43 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 20:02:43 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 20:02:43 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 20:02:43 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 20:02:45 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 20:02:45 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 20:02:45 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:02:45 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:02:46 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 20:02:46 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:02:46 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:02:46 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:02:46 - llm-service - INFO - [index_tts.py:102] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:02:46 - llm-service - INFO - [index_tts.py:103] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:05:26 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 20:05:26 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 20:05:26 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 20:05:26 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 20:05:28 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 20:05:28 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 20:05:28 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:05:28 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:05:29 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 20:05:29 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:05:29 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:05:29 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:05:29 - llm-service - INFO - [index_tts.py:102] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:05:29 - llm-service - INFO - [index_tts.py:103] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:09:58 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 20:09:58 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 20:09:58 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 20:09:58 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 20:10:00 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 20:10:00 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 20:10:00 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints
+2025-12-09 20:10:00 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints
+2025-12-09 20:10:01 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 20:10:01 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:10:01 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints
+2025-12-09 20:10:01 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints
+2025-12-09 20:10:01 - llm-service - INFO - [index_tts.py:102] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:10:01 - llm-service - INFO - [index_tts.py:103] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints
+2025-12-09 20:21:13 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 20:21:13 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 20:21:13 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 20:21:13 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 20:21:15 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 20:21:15 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 20:21:15 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:21:15 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:21:16 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 20:21:16 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:21:16 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:21:16 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:21:16 - llm-service - INFO - [index_tts.py:102] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:21:16 - llm-service - INFO - [index_tts.py:103] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:21:47 - llm-service - INFO - [index_tts.py:105] - IndexTTS pipeline voices loaded successfully
+2025-12-09 20:21:47 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 20:21:47 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:21:47 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:21:47 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:21:47 - llm-service - INFO - [index_tts.py:102] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:21:47 - llm-service - INFO - [index_tts.py:103] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:22:15 - llm-service - INFO - [index_tts.py:105] - IndexTTS pipeline voices loaded successfully
+2025-12-09 20:22:15 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 20:22:15 - llm-service - INFO - [service.py:203] - All models loaded successfully
+2025-12-09 20:31:24 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 20:31:24 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 20:31:24 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 20:31:24 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 20:31:26 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 20:31:26 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 20:31:26 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:31:26 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:31:27 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 20:31:27 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:31:27 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:31:27 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:31:27 - llm-service - INFO - [index_tts.py:102] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:31:27 - llm-service - INFO - [index_tts.py:103] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:31:57 - llm-service - INFO - [index_tts.py:105] - IndexTTS pipeline voices loaded successfully
+2025-12-09 20:31:57 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 20:31:57 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:31:57 - llm-service - INFO - [index_tts.py:48] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:31:57 - llm-service - INFO - [index_tts.py:49] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:31:57 - llm-service - INFO - [index_tts.py:102] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:31:57 - llm-service - INFO - [index_tts.py:103] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:32:27 - llm-service - INFO - [index_tts.py:105] - IndexTTS pipeline voices loaded successfully
+2025-12-09 20:32:28 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 20:32:28 - llm-service - INFO - [service.py:203] - All models loaded successfully
+2025-12-09 20:43:56 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 20:43:56 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 20:43:56 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 20:43:56 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 20:43:58 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 20:43:58 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 20:43:58 - llm-service - INFO - [index_tts.py:49] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:43:58 - llm-service - INFO - [index_tts.py:50] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:43:59 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 20:43:59 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:43:59 - llm-service - INFO - [index_tts.py:49] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:43:59 - llm-service - INFO - [index_tts.py:50] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:43:59 - llm-service - INFO - [index_tts.py:103] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:43:59 - llm-service - INFO - [index_tts.py:104] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:44:28 - llm-service - INFO - [index_tts.py:106] - IndexTTS pipeline voices loaded successfully
+2025-12-09 20:44:28 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 20:44:28 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:44:28 - llm-service - INFO - [index_tts.py:49] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:44:28 - llm-service - INFO - [index_tts.py:50] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:44:28 - llm-service - INFO - [index_tts.py:103] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:44:28 - llm-service - INFO - [index_tts.py:104] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:44:57 - llm-service - INFO - [index_tts.py:106] - IndexTTS pipeline voices loaded successfully
+2025-12-09 20:44:57 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 20:44:57 - llm-service - INFO - [service.py:203] - All models loaded successfully
+2025-12-09 20:46:29 - llm-service - INFO - [service.py:440] - Received TTS request for model: index-tts
+2025-12-09 20:46:29 - llm-service - INFO - [service.py:441] - Received TTS request: input=你好，这是一个测试文本。..., voice=男声1, instructions=None
+2025-12-09 20:46:29 - llm-service - INFO - [index_tts.py:149] - Calling IndexTTS infer with output_path: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmpa8rbmj8l.wav
+2025-12-09 20:47:46 - llm-service - ERROR - [index_tts.py:167] - Failed to generate speech: TorchCodec is required for save_with_torchcodec. Please install torchcodec to use this function.
+2025-12-09 20:47:46 - llm-service - ERROR - [tts.py:361] - Error generating speech with IndexTTS: TorchCodec is required for save_with_torchcodec. Please install torchcodec to use this function.
+2025-12-09 20:47:46 - llm-service - ERROR - [service.py:480] - Error in speech generation: TorchCodec is required for save_with_torchcodec. Please install torchcodec to use this function.
+Traceback (most recent call last):
+  File "/Users/jun/miniconda3/envs/indextts/lib/python3.12/site-packages/torchaudio/_torchcodec.py", line 246, in save_with_torchcodec
+    from torchcodec.encoders import AudioEncoder
+ModuleNotFoundError: No module named 'torchcodec'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/service.py", line 455, in create_speech
+    audio_data, mime_type = tts.generate_speech(
+                            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tts.py", line 335, in generate_speech
+    audio_array = self.model.generate_speech(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/index_tts.py", line 150, in generate_speech
+    result = self.model.infer(**infer_params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/indextts/infer_v2.py", line 388, in infer
+    return list(self.infer_generator(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/indextts/infer_v2.py", line 713, in infer_generator
+    torchaudio.save(output_path, wav.type(torch.int16), sampling_rate)
+  File "/Users/jun/miniconda3/envs/indextts/lib/python3.12/site-packages/torchaudio/__init__.py", line 178, in save
+    return save_with_torchcodec(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jun/miniconda3/envs/indextts/lib/python3.12/site-packages/torchaudio/_torchcodec.py", line 248, in save_with_torchcodec
+    raise ImportError(
+ImportError: TorchCodec is required for save_with_torchcodec. Please install torchcodec to use this function.
+2025-12-09 20:47:46 - llm-service - INFO - [service.py:297] - create_speech (error) execution time: 76.86 seconds
+2025-12-09 20:56:47 - llm-service - INFO - [logger.py:113] - Logger 'llm-service' initialized
+2025-12-09 20:56:47 - llm-service - INFO - [logger.py:114] - Console logging level: INFO
+2025-12-09 20:56:47 - llm-service - INFO - [logger.py:115] - File logging level: INFO
+2025-12-09 20:56:47 - llm-service - INFO - [logger.py:116] - Log file: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/logs/llm-service.log
+2025-12-09 20:56:49 - llm-service - INFO - [service.py:493] - Starting server on http://0.0.0.0:9000
+2025-12-09 20:56:49 - llm-service - INFO - [service.py:201] - Starting to load TTS model
+2025-12-09 20:56:49 - llm-service - INFO - [index_tts.py:49] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:56:49 - llm-service - INFO - [index_tts.py:50] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:56:50 - llm-service - INFO - [tts.py:44] - IndexTTS modules imported successfully
+2025-12-09 20:56:50 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:56:50 - llm-service - INFO - [index_tts.py:49] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:56:50 - llm-service - INFO - [index_tts.py:50] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:56:50 - llm-service - INFO - [index_tts.py:103] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:56:50 - llm-service - INFO - [index_tts.py:104] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:57:19 - llm-service - INFO - [index_tts.py:106] - IndexTTS pipeline voices loaded successfully
+2025-12-09 20:57:19 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 20:57:19 - llm-service - INFO - [tts.py:286] - Loading IndexTTS model...
+2025-12-09 20:57:19 - llm-service - INFO - [index_tts.py:49] - Set Hugging Face cache directory to: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:57:19 - llm-service - INFO - [index_tts.py:50] - Environment variable HF_HUB_CACHE = /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:57:19 - llm-service - INFO - [index_tts.py:103] - load indextts model from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/IndexTeam/IndexTTS-2
+2025-12-09 20:57:19 - llm-service - INFO - [index_tts.py:104] - HF cache directory: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/checkpoints/hf_cache
+2025-12-09 20:57:52 - llm-service - INFO - [index_tts.py:106] - IndexTTS pipeline voices loaded successfully
+2025-12-09 20:57:53 - llm-service - INFO - [tts.py:296] - IndexTTS model loaded successfully
+2025-12-09 20:57:53 - llm-service - INFO - [service.py:203] - All models loaded successfully
+2025-12-09 20:58:00 - llm-service - INFO - [service.py:440] - Received TTS request for model: index-tts
+2025-12-09 20:58:00 - llm-service - INFO - [service.py:441] - Received TTS request: input=你好，这是一个测试文本。..., voice=男声1, instructions=None
+2025-12-09 20:58:00 - llm-service - INFO - [index_tts.py:149] - Calling IndexTTS infer with output_path: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmpx12151nb.wav
+2025-12-09 20:59:16 - llm-service - INFO - [index_tts.py:158] - Loaded audio from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmpx12151nb.wav, shape: (61952,), sampling_rate: 22050
+2025-12-09 20:59:16 - llm-service - INFO - [tts.py:347] - Inference time: 75.82525515556335 s
+2025-12-09 20:59:16 - llm-service - INFO - [service.py:465] - Speech generated successfully in wav format
+2025-12-09 20:59:16 - llm-service - INFO - [service.py:297] - create_speech execution time: 75.83 seconds
+2025-12-09 21:00:26 - llm-service - INFO - [service.py:440] - Received TTS request for model: index-tts
+2025-12-09 21:00:26 - llm-service - INFO - [service.py:441] - Received TTS request: input=今天天气真好，我们去公园散步吧！..., voice=男声1, instructions=Tone: 声音应该轻松愉快，充满活力。Pacing: 语速适中，不要过快。Emotion: 表达出开心和兴奋的情绪。
+2025-12-09 21:00:26 - llm-service - INFO - [index_tts.py:149] - Calling IndexTTS infer with output_path: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmp5sce8xol.wav
+2025-12-09 21:01:51 - llm-service - INFO - [index_tts.py:158] - Loaded audio from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmp5sce8xol.wav, shape: (88064,), sampling_rate: 22050
+2025-12-09 21:01:51 - llm-service - INFO - [tts.py:347] - Inference time: 85.28572797775269 s
+2025-12-09 21:01:51 - llm-service - INFO - [service.py:465] - Speech generated successfully in wav format
+2025-12-09 21:01:51 - llm-service - INFO - [service.py:297] - create_speech execution time: 85.29 seconds
+2025-12-09 21:03:48 - llm-service - INFO - [service.py:440] - Received TTS request for model: index-tts
+2025-12-09 21:03:48 - llm-service - INFO - [service.py:441] - Received TTS request: input=今天天气真好，我们去公园散步吧！..., voice=女生_甄嬛, instructions=Tone: 声音应该轻松愉快，充满活力。Pacing: 语速适中，不要过快。Emotion: 表达出开心和兴奋的情绪。
+2025-12-09 21:03:48 - llm-service - INFO - [index_tts.py:149] - Calling IndexTTS infer with output_path: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmph5iknjhm.wav
+2025-12-09 21:05:26 - llm-service - INFO - [index_tts.py:158] - Loaded audio from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmph5iknjhm.wav, shape: (81408,), sampling_rate: 22050
+2025-12-09 21:05:26 - llm-service - INFO - [tts.py:347] - Inference time: 98.30537796020508 s
+2025-12-09 21:05:26 - llm-service - INFO - [service.py:465] - Speech generated successfully in wav format
+2025-12-09 21:05:26 - llm-service - INFO - [service.py:297] - create_speech execution time: 98.31 seconds
+2025-12-09 21:06:52 - llm-service - INFO - [service.py:440] - Received TTS request for model: index-tts
+2025-12-09 21:06:52 - llm-service - INFO - [service.py:441] - Received TTS request: input=今天天气真好，我们去公园散步吧！..., voice=女生_新闻联播, instructions=Tone: 声音应该轻松愉快，充满活力。Pacing: 语速适中，不要过快。Emotion: 表达出开心和兴奋的情绪。
+2025-12-09 21:06:52 - llm-service - INFO - [index_tts.py:149] - Calling IndexTTS infer with output_path: /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmp1np7b651.wav
+2025-12-09 21:08:19 - llm-service - INFO - [index_tts.py:158] - Loaded audio from /Users/jun/GolandProjects/competition/tencent-hunyuan-ai-podcast/src/llm/tmp1np7b651.wav, shape: (76544,), sampling_rate: 22050
+2025-12-09 21:08:19 - llm-service - INFO - [tts.py:347] - Inference time: 86.731516122818 s
+2025-12-09 21:08:19 - llm-service - INFO - [service.py:465] - Speech generated successfully in wav format
+2025-12-09 21:08:19 - llm-service - INFO - [service.py:297] - create_speech execution time: 86.73 seconds

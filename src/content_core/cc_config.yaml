@@ -1,0 +1,44 @@
+# Content Core main configuration
+# Copy this file to your project root or set CCORE_CONFIG_PATH to its location
+
+speech_to_text:
+  provider: openai
+  model_name: whisper-1
+
+default_model:
+  provider: openai
+  model_name: gpt-4o-mini
+  config:
+    temperature: 0.5
+    top_p: 1
+    max_tokens: 2000
+
+cleanup_model:
+  provider: openai
+  model_name: gpt-4o-mini
+  config:
+    temperature: 0
+    max_tokens: 8000
+    output_format: json
+
+summary_model:
+  provider: openai
+  model_name: gpt-4o-mini
+  config:
+    temperature: 0
+    top_p: 1
+    max_tokens: 2000
+
+extraction:
+  document_engine: auto  # auto | simple | docling - for files/documents
+  url_engine: auto  # auto | simple | firecrawl | jina | docling - for URLs
+  docling:
+    output_format: markdown  # markdown | html | json
+  pymupdf:
+    enable_formula_ocr: false    # Enable OCR for formula-heavy pages (requires Tesseract)
+    formula_threshold: 3         # Minimum formulas per page to trigger OCR
+    ocr_fallback: true          # Gracefully fallback to standard extraction if OCR fails
+
+youtube_transcripts:
+  preferred_languages: ["en", "es", "pt"]
+  

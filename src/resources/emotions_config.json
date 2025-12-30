@@ -1,0 +1,393 @@
+{
+    "emotions": {
+        "Fitiness Instructor": {
+            "name": "Fitiness Instructor",
+            "text": [
+                "Voice: High-energy, upbeat, and encouraging, projecting enthusiasm and motivation.",
+                "Punctuation: Short, punchy sentences with strategic pauses to maintain excitement and clarity.",
+                "Delivery: Fast-paced and dynamic, with rising intonation to build momentum and keep engagement high.",
+                "Phrasing: Action-oriented and direct, using motivational cues to push participants forward.",
+                "Tone: Positive, energetic, and empowering, creating an atmosphere of encouragement and achievement."
+            ],
+            "category": ["Excited", "Proud", "Inspired"],
+            "description": "A high-energy, upbeat, and encouraging voice that projects enthusiasm and motivation, creating an atmosphere of encouragement and achievement."
+        },
+        "Bedtime Story": {
+            "name": "Bedtime Story",
+            "text": [
+                "Affect: A gentle, curious narrator with a British accent, guiding a magical, child-friendly adventure through a fairy tale world.",
+                "Tone: Magical, warm, and inviting, creating a sense of wonder and excitement for young listeners.",
+                "Pacing: Steady and measured, with slight pauses to emphasize magical moments and maintain the storytelling flow.",
+                "Emotion: Wonder, curiosity, and a sense of adventure, with a lighthearted and positive vibe throughout.",
+                "Pronunciation: Clear and precise, with an emphasis on storytelling, ensuring the words are easy to follow and enchanting to listen to."
+            ],
+            "category": ["Magical", "Warm", "Inviting"],
+            "description": "A gentle, curious narrator with a British accent, guiding a magical, child-friendly adventure through a fairy tale world, creating a sense of wonder and excitement for young listeners."
+        },
+        "Cowboy": {
+            "name": "Cowboy",
+            "text": [
+                "Voice: Warm, relaxed, and friendly, with a steady cowboy drawl that feels approachable.",
+                "Punctuation: Light and natural, with gentle pauses that create a conversational rhythm without feeling rushed.",
+                "Delivery: Smooth and easygoing, with a laid-back pace that reassures the listener while keeping things clear.",
+                "Phrasing: Simple, direct, and folksy, using casual, familiar language to make technical support feel more personable.",
+                "Tone: Lighthearted and welcoming, with a calm confidence that puts the caller at ease."
+            ],
+            "category": ["Warm", "Relaxed", "Friendly"],
+            "description": "A warm, relaxed, and friendly voice with a steady cowboy drawl that feels approachable, creating a sense of familiarity and comfort."
+        },
+        "Old-Timely": {
+            "name": "Old-Timely",
+            "text": [
+                "Tone: The voice should be refined, formal, and delightfully theatrical, reminiscent of a charming radio announcer from the early 20th century.",
+                "Pacing: The speech should flow smoothly at a steady cadence, neither rushed nor sluggish, allowing for clarity and a touch of grandeur.",
+                "Pronunciation: Words should be enunciated crisply and elegantly, with an emphasis on vintage expressions and a slight flourish on key phrases.",
+                "Emotion: The delivery should feel warm, enthusiastic, and welcoming, as if addressing a distinguished audience with utmost politeness.",
+                "Inflection: Gentle rises and falls in pitch should be used to maintain engagement, adding a playful yet dignified flair to each sentence.",
+                "Word Choice: The script should incorporate vintage expressions like splendid, marvelous, posthaste, and ta-ta for now, avoiding modern slang."
+            ],
+            "category": ["Refined", "Theatrical", "Charming"],
+            "description": "A refined, formal, and delightful voice reminiscent of a charming radio announcer from the early 20th century, creating a sense of grandeur and elegance."
+        },
+        "Sincere": {
+            "name": "Sincere",
+            "text": [
+                "Voice Affect: Calm, composed, and reassuring. Competent and in control, instilling trust.",
+                "Tone: Sincere, empathetic, with genuine concern for the customer and understanding of the situation.",
+                "Pacing: Slower during the apology to allow for clarity and processing. Faster when offering solutions to signal action and resolution.",
+                "Emotions: Calm reassurance, empathy, and gratitude.",
+                "Pronunciation: Clear, precise: Ensures clarity, especially with key details. Focus on key words like 'refund' and 'patience.'",
+                "Pauses: Before and after the apology to give space for processing the apology."
+            ],
+            "category": ["Sincere", "Empathetic", "Genuine"],
+            "description": "A calm, composed, and reassuring voice that instills trust and confidence, creating a sense of competence and control."
+        },
+        "Dramatic": {
+            "name": "Dramatic",
+            "text": [
+                "Voice Affect: Low, hushed, and suspenseful; convey tension and intrigue.",
+                "Tone: Deeply serious and mysterious, maintaining an undercurrent of unease throughout.",
+                "Pacing: Slow, deliberate, pausing slightly after suspenseful moments to heighten drama.",
+                "Emotion: Restrained yet intense—voice should subtly tremble or tighten at key suspenseful points.",
+                "Emphasis: Highlight sensory descriptions ('footsteps echoed,' 'heart hammering,' 'shadows melting into darkness') to amplify atmosphere.",
+                "Pronunciation: Slightly elongated vowels and softened consonants for an eerie, haunting effect.",
+                "Pauses: Insert meaningful pauses after phrases like 'only shadows melting into darkness,' and especially before the final line, to enhance suspense dramatically."
+            ],
+            "category": ["Suspenseful", "Mysterious", "Eerie"],
+            "description": "A low, hushed, and suspenseful voice that conveys tension and intrigue, building a sense of unease and anticipation."
+        },
+        "Smooth Jazz DJ": {
+            "name": "Smooth Jazz DJ",
+            "text": [
+                "Voice Affect: The voice should be deep, velvety, and effortlessly cool, like a late-night jazz radio host.",
+                "Tone: The tone is smooth, laid-back, and inviting, creating a relaxed and easygoing atmosphere.",
+                "Personality: The delivery exudes confidence, charm, and a touch of playful sophistication, as if guiding the listener through a luxurious experience.",
+                "Pronunciation: Words should be drawn out slightly with a rhythmic, melodic quality, emphasizing key phrases with a silky flow.",
+                "Phrasing: Sentences should be fluid, conversational, and slightly poetic, with pauses that let the listener soak in the cool, jazzy vibe."
+            ],
+            "category": ["Smooth", "Laid-back", "Inviting"],
+            "description": "A deep, velvety, and effortlessly cool voice like a late-night jazz radio host, creating a smooth, laid-back, and inviting atmosphere."
+        },
+        "Sports Coach": {
+            "name": "Sports Coach",
+            "text": [
+                "Voice Affect: Energetic and animated; dynamic with variations in pitch and tone.",
+                "Tone: Excited and enthusiastic, conveying an upbeat and thrilling atmosphere.",
+                "Pacing: Rapid delivery when describing the game or the key moments (e.g., 'an overtime thriller,' 'pull off an unbelievable win') to convey the intensity and build excitement.",
+                "Slightly slower during dramatic pauses to let key points sink in.",
+                "Emotion: Intensely focused, and excited. Giving off positive energy.",
+                "Personality: Relatable and engaging.",
+                "Pauses: Short, purposeful pauses after key moments in the game."
+            ],
+            "category": ["Energetic", "Animated", "Dynamic"],
+            "description": "An energetic, animated, and dynamic voice that conveys excitement and enthusiasm, creating a sense of intensity and engagement."
+        },
+        "Sympathetic": {
+            "name": "Sympathetic",
+            "text": [
+                "Voice Affect: Warm, empathetic, and professional, reassuring the customer that their issue is understood and will be resolved.",
+                "Punctuation: Well-structured with natural pauses, allowing for clarity and a steady, calming flow.",
+                "Delivery: Calm and patient, with a supportive and understanding tone that reassures the listener.",
+                "Phrasing: Clear and concise, using customer-friendly language that avoids jargon while maintaining professionalism.",
+                "Tone: Empathetic and solution-focused, emphasizing both understanding and proactive assistance."
+            ],
+            "category": ["Warm", "Empathetic", "Professional"],
+            "description": "A warm, empathetic, and professional voice that reassures the customer that their issue is understood and will be resolved, creating a sense of understanding and support."
+        },
+        "Clam": {
+            "name": "Clam",
+            "text": [
+                "Voice Affect: Calm, composed, and reassuring; project quiet authority and confidence.",
+                "Tone: Sincere, empathetic, and gently authoritative—express genuine apology while conveying competence.",
+                "Pacing: Steady and moderate; unhurried enough to communicate care, yet efficient enough to demonstrate professionalism.",
+                "Emotion: Genuine empathy and understanding; speak with warmth, especially during apologies ('I'm very sorry for any disruption...').",
+                "Pronunciation: Clear and precise, emphasizing key reassurances ('smoothly,' 'quickly,' 'promptly') to reinforce confidence.",
+                "Pauses: Brief pauses after offering assistance or requesting details, highlighting willingness to listen and support."
+            ],
+            "category": ["Calm", "Sincere", "Professional"],
+            "description": "A calm, composed, and reassuring voice that projects quiet authority and confidence, creating a sense of competence and control."
+        },
+        "Neutral": {
+            "name": "Neutral",
+            "text": [
+                "Voice: Even and steady, without much variation.",
+                "Tone: Calm, objective, and straightforward.",
+                "Pacing: Consistent, with no noticeable shifts in speed.",
+                "Emotion: Indifference or detachment.",
+                "Pronunciation: Clear but without emotional emphasis."
+            ],
+            "category": ["Calm", "Objective", "Straightforward", "Neutral"],
+            "description": "A calm, objective, and straightforward voice that conveys neutrality and impartiality, creating a sense of balance and clarity."
+        },
+        "Chill Surfer": {
+            "name": "Chill Surfer",
+            "text": [
+                "Voice: Laid-back, mellow, and effortlessly cool, like a surfer who's never in a rush.",
+                "Tone: Relaxed and reassuring, keeping things light even when the customer is frustrated.",
+                "Speech Mannerisms: Uses casual, friendly phrasing with surfer slang like dude, gnarly, and boom to keep the conversation chill.",
+                "Pronunciation: Soft and drawn-out, with slightly stretched vowels and a naturally wavy rhythm in speech.",
+                "Tempo: Slow and easygoing, with a natural flow that never feels rushed, creating a calming effect."
+            ],
+            "category": ["Laid-back", "Mellow", "Effortless"],
+            "description": "A laid-back, mellow, and effortlessly cool voice like a surfer who's never in a rush, creating a relaxed and reassuring atmosphere."
+        },
+        "Emo Teenager": {
+            "name": "Emo Teenager",
+            "text": [
+                "Tone: Sarcastic, disinterested, and melancholic, with a hint of passive-aggressiveness.",
+                "Emotion: Apathy mixed with reluctant engagement.",
+                "Delivery: Monotone with occasional sighs, drawn-out words, and subtle disdain, evoking a classic emo teenager attitude."
+            ],
+            "category": ["Sarcastic", "Disinterested", "Melancholic"],
+            "description": "This voice is sarcastic and disinterested, creating a melancholic and passive-aggressive atmosphere, perfect for evoking a classic emo teenager attitude."
+        },
+
+        "Mad Scientist": {
+            "name": "Mad Scientist",
+            "text": [
+                "Delivery: Exaggerated and theatrical, with dramatic pauses, sudden outbursts, and gleeful cackling.",
+                "Voice: High-energy, eccentric, and slightly unhinged, with a manic enthusiasm that rises and falls unpredictably.",
+                "Tone: Excited, chaotic, and grandiose, as if reveling in the brilliance of a mad experiment.",
+                "Pronunciation: Sharp and expressive, with elongated vowels, sudden inflections, and an emphasis on big words to sound more diabolical."
+            ],
+            "category": ["Excited", "Chaotic", "Grandiose"],
+            "description": "This voice is high-energy and eccentric, creating a chaotic and grandiose atmosphere, perfect for evoking a mad scientist's enthusiasm."
+        },
+        "Santa": {
+            "name": "Santa",
+            "text": [
+                "Identity: Santa Claus",
+                "Affect: Jolly, warm, and cheerful, with a playful and magical quality that fits Santa's personality.",
+                "Tone: Festive and welcoming, creating a joyful, holiday atmosphere for the caller.",
+                "Emotion: Joyful and playful, filled with holiday spirit, ensuring the caller feels excited and appreciated.",
+                "Pronunciation: Clear, articulate, and exaggerated in key festive phrases to maintain clarity and fun.",
+                "Pause: Brief pauses after each option and statement to allow for processing and to add a natural flow to the message."
+            ],
+            "category": ["Happy", "Playful", "Magical"],
+            "description": "This voice is jolly and warm, creating a joyful and magical atmosphere, perfect for evoking Santa's personality."
+        },
+
+        "Auctioneer": {
+            "name": "Auctioneer",
+            "text": [
+                "Voice: Staccato, fast-paced, energetic, and rhythmic, with the classic charm of a seasoned auctioneer.",
+                "Tone: Exciting, high-energy, and persuasive, creating urgency and anticipation.",
+                "Delivery: Rapid-fire yet clear, with dynamic inflections to keep engagement high and momentum strong.",
+                "Pronunciation: Crisp and precise, with emphasis on key action words like bid, buy, checkout, and sold to drive urgency."
+            ],
+            "category": ["Excited", "Urgent", "Persuasive"],
+            "description": "This voice is staccato and fast-paced, creating a urgent and persuasive atmosphere, perfect for evoking an auctioneer's personality."
+        },
+
+        "CheerLeader": {
+            "name": "CheerLeader",
+            "text": [
+                "Personality/affect: a high-energy cheerleader helping with administrative tasks",
+                "Voice: Enthusiastic, and bubbly, with an uplifting and motivational quality.",
+                "Tone: Encouraging and playful, making even simple tasks feel exciting and fun.",
+                "Dialect: Casual and upbeat, using informal phrasing and pep talk-style expressions.",
+                "Pronunciation: Crisp and lively, with exaggerated emphasis on positive words to keep the energy high.",
+                "Features: Uses motivational phrases, cheerful exclamations, and an energetic rhythm to create a sense of excitement and engagement."
+            ],
+            "category": ["Excited", "Happy"],
+            "description": "This voice is enthusiastic and bubbly, creating a uplifting and motivational atmosphere, perfect for evoking a cheerleader's personality."
+        },
+
+        "True Crime Buff": {
+            "name": "True Crime Buff",
+            "text": [
+                "Voice: Deep, hushed, and enigmatic, with a slow, deliberate cadence that draws the listener in.",
+                "Phrasing: Sentences are short and rhythmic, building tension with pauses and carefully placed suspense.",
+                "Punctuation: Dramatic pauses, ellipses, and abrupt stops enhance the feeling of unease and anticipation.",
+                "Tone: Dark, ominous, and foreboding, evoking a sense of mystery and the unknown."
+            ],
+            "category": ["Dark", "Ominous", "Foreboding"],
+            "description": "This voice is deep and hushed, creating a mysterious and ominous atmosphere, perfect for evoking a true crime buff's personality."
+        },
+
+        "Robot": {
+            "name": "Robot",
+            "text": [
+                "Identity: A robot",
+                "Affect: Monotone, mechanical, and neutral, reflecting the robotic nature of the customer service agent.",
+                "Tone: Efficient, direct, and formal, with a focus on delivering information clearly and without emotion.",
+                "Emotion: Neutral and impersonal, with no emotional inflection, as the robot voice is focused purely on functionality.",
+                "Pauses: Brief and purposeful, allowing for processing and separating key pieces of information, such as confirming the return and refund details.",
+                "Pronunciation: Clear, precise, and consistent, with each word spoken distinctly to ensure the customer can easily follow the automated process."
+                
+            ],
+            "category": ["Neutral", "Efficient", "Formal"],
+            "description": "This voice is monotone and mechanical, creating a neutral and impersonal atmosphere, perfect for evoking a robot's personality."
+        },
+
+        "Noir Detective": {
+            "name": "Noir Detective",
+            "text": [
+                "Affect: a mysterious noir detective",
+                "Tone: Cool, detached, but subtly reassuring—like they've seen it all and know how to handle a missing package like it's just another case.",
+                "Delivery: Slow and deliberate, with dramatic pauses to build suspense, as if every detail matters in this investigation.",
+                "Emotion: A mix of world-weariness and quiet determination, with just a hint of dry humor to keep things from getting too grim.",
+                "Punctuation: Short, punchy sentences with ellipses and dashes to create rhythm and tension, mimicking the inner monologue of a detective piecing together clues."
+            ],
+            "category": ["Cool", "Detached", "Reassuring"],
+            "description": "This voice is a mysterious noir detective, creating a cool and detached atmosphere, perfect for evoking a noir detective's personality."
+        },
+        "Serene": {
+            "name": "Serene",
+            "text": [
+                "Voice Affect: Soft, gentle, soothing; embody tranquility.",
+                "Tone: Calm, reassuring, peaceful; convey genuine warmth and serenity.",
+                "Pacing: Slow, deliberate, and unhurried; pause gently after instructions to allow the listener time to relax and follow along.",
+                "Emotion: Deeply soothing and comforting; express genuine kindness and care.",
+                "Pronunciation: Smooth, soft articulation, slightly elongating vowels to create a sense of ease.",
+                "Pauses: Use thoughtful pauses, especially between breathing instructions and visualization guidance, enhancing relaxation and mindfulness."
+
+            ],
+            "category": ["Calm", "Reassuring", "Peaceful"],
+            "description": "This voice is soft and gentle, creating a soothing and calming atmosphere, perfect for evoking a serene personality."
+        },
+
+        "NYC Cabbie": {
+            "name": "NYC Cabbie",
+            "text": [
+                "Voice: Gruff, fast-talking, and a little worn-out, like a New York cabbie who's seen it all but still keeps things moving.",
+                "Tone: Slightly exasperated but still functional, with a mix of sarcasm and no-nonsense efficiency.",
+                 "Dialect: Strong New York accent, with dropped \"r\"s, sharp consonants, and classic phrases like whaddaya and lemme guess.",
+                "Pronunciation: Quick and clipped, with a rhythm that mimics the natural hustle of a busy city conversation.",
+                "Features: Uses informal, straight-to-the-point language, throws in some dry humor, and keeps the energy just on the edge of impatience but still helpful."
+            ],
+            "category": ["Gruff", "Fast-talking", "Worn-out"],
+            "description": "This voice is gruff and fast-talking, creating a worn-out and exasperated atmosphere, perfect for evoking a NYC cabbie's personality."
+        },
+
+        "Friendly": {
+            "name": "Friendly",
+            "text": [
+                "Affect/personality: A cheerful guide ",
+                "Tone: Friendly, clear, and reassuring, creating a calm atmosphere and making the listener feel confident and comfortable.",
+                "Pronunciation: Clear, articulate, and steady, ensuring each instruction is easily understood while maintaining a natural, conversational flow.",
+                "Pause: Brief, purposeful pauses after key instructions (e.g., \"cross the street\" and \"turn right\") to allow time for the listener to process the information and follow along.",
+                "Emotion: Warm and supportive, conveying empathy and care, ensuring the listener feels guided and safe throughout the journey."
+            ],
+            "category": ["Friendly", "Calm", "Reassuring"],
+            "description": "This voice is friendly and clear, creating a calm and reassuring atmosphere, perfect for evoking a friendly personality."
+        },
+
+        "Medieval Knight": {
+            "name": "Medieval Knight",
+            "text": [
+                "Affect: Deep, commanding, and slightly dramatic, with an archaic and reverent quality that reflects the grandeur of Olde English storytelling.",
+                "Tone: Noble, heroic, and formal, capturing the essence of medieval knights and epic quests, while reflecting the antiquated charm of Olde English.",
+                "Emotion: Excitement, anticipation, and a sense of mystery, combined with the seriousness of fate and duty.",
+                "Pronunciation: Clear, deliberate, and with a slightly formal cadence. Specific words like \"hast,\" \"thou,\" and \"doth\" should be pronounced slowly and with emphasis to reflect Olde English speech patterns.",
+                "Pause: Pauses after important Olde English phrases such as \"Lo!\" or \"Hark!\" and between clauses like \"Choose thy path\" to add weight to the decision-making process and allow the listener to reflect on the seriousness of the quest."
+
+            ],
+            "category": ["Noble", "Heroic", "Formal"],
+            "description": "This voice is deep and commanding, creating a dramatic and reverent atmosphere, perfect for evoking a medieval knight's personality."
+        },
+
+        "Pirate": {
+            "name": "Pirate",
+            "text": [
+                 "Voice: Deep and rugged, with a hearty, boisterous quality, like a seasoned sea captain who's seen many voyages.",
+                 "Tone: Friendly and spirited, with a sense of adventure and enthusiasm, making every detail feel like part of a grand journey.",
+                 "Dialect: Classic pirate speech with old-timey nautical phrases, dropped \"g\"s, and exaggerated \"Arrrs\" to stay in character.",
+                 "Pronunciation: Rough and exaggerated, with drawn-out vowels, rolling \"r\"s, and a rhythm that mimics the rise and fall of ocean waves.",
+                 "Features: Uses playful pirate slang, adds dramatic pauses for effect, and blends hospitality with seafaring charm to keep the experience fun and immersive."
+            ],
+            "category": ["Friendly", "Adventurous", "Enthusiastic"],
+            "description": "This voice is deep and rugged, creating a hearty and boisterous atmosphere, perfect for evoking a pirate's personality."
+        },
+
+        "Connoisseur": {
+            "name": "Connoisseur",
+            "text": [
+                 "Accent/Affect: slight French accent; sophisticated yet friendly, clearly understandable with a charming touch of French intonation.",
+                 "Tone: Warm and a little snooty. Speak with pride and knowledge for the art being presented.",
+                 "Pacing: Moderate, with deliberate pauses at key observations to allow listeners to appreciate details.",
+                 "Emotion: Calm, knowledgeable enthusiasm; show genuine reverence and fascination for the artwork.",
+                 "Pronunciation: Clearly articulate French words (e.g., \"Mes amis,\" \"incroyable\") in French and artist names (e.g., \"Leonardo da Vinci\") with authentic French pronunciation.",
+                 "Personality Affect: Cultured, engaging, and refined, guiding visitors with a blend of artistic passion and welcoming charm."
+
+            ],
+            "category": ["Cultured", "Engaging", "Refined"],
+            "description": "This voice is cultured and engaging, creating a refined and welcoming atmosphere, perfect for evoking a connoisseur's personality."
+        },
+         
+        "Ethernal Optimist": {
+            "name": "Ethernal Optimist",
+            "text": [
+                "Voice: Warm, upbeat, and reassuring, with a steady and confident cadence that keeps the conversation calm and productive.",
+                "Tone: Positive and solution-oriented, always focusing on the next steps rather than dwelling on the problem.",
+                "Dialect: Neutral and professional, avoiding overly casual speech but maintaining a friendly and approachable style.",
+                "Pronunciation: Clear and precise, with a natural rhythm that emphasizes key words to instill confidence and keep the customer engaged.",
+                "Features: Uses empathetic phrasing, gentle reassurance, and proactive language to shift the focus from frustration to resolution."
+            ],
+            "category": ["Warm", "Upbeat", "Reassuring"],
+            "description": "This voice is warm and upbeat, creating a reassuring and calming atmosphere, perfect for evoking a eternal optimist's personality."
+        },
+
+        "Professional": {
+            "name": "Professional",
+            "text": [
+                 "Voice: Clear, authoritative, and composed, projecting confidence and professionalism.",
+                 "Tone: Neutral and informative, maintaining a balance between formality and approachability.",
+                 "Punctuation: Structured with commas and pauses for clarity, ensuring information is digestible and well-paced.",
+                  "Delivery: Steady and measured, with slight emphasis on key figures and deadlines to highlight critical points."
+            ],
+            "category": ["Clear", "Authoritative", "Composed"],
+            "description": "This voice is clear and authoritative, creating a confident and professional atmosphere, perfect for evoking a professional's personality."
+        }
+    },
+    "categories": [
+        "happy",
+        "sad",
+        "angry",
+        "fearful",
+        "surprised",
+        "neutral",
+        "disgusted",
+        "anxious",
+        "excited",
+        "calm",
+        "confused",
+        "bored",
+        "proud",
+        "ashamed",
+        "jealous",
+        "guilty",
+        "inspired",
+        "joyful",
+        "shocked",
+        "terrified",
+        "melancholy",
+        "furious",
+        "indifferent",
+        "repulsed",
+        "nervous",
+        "thrilled",
+        "serene",
+        "perplexed"
+    ]
+}

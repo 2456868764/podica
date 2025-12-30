@@ -1,0 +1,23 @@
+services:
+  kokoro:
+    image: registry.cn-hangzhou.aliyuncs.com/2456868764/kokoro-tts:1.0.1
+    ports:
+      - "9000:9000"
+    pull_policy: always
+  podcast-studio:
+    image: registry.cn-hangzhou.aliyuncs.com/2456868764/podcast-studio:1.0.2
+    ports:
+      - "8501:8501"
+    environment:
+        - TENCENT_BASE_URL=https://api.hunyuan.cloud.tencent.com/v1/
+        - TENCENT_API_KEY=sk-xxx
+        - KOKORO_BASE_URL=http://kokoro:9000/v1
+        - ELEVENLABS_API_KEY=sk_xxx
+        - V3API_BASE_URL=https://api.gpt.ge/v1/
+        - V3API_API_KEY=sk-xxx
+    depends_on:
+      - kokoro
+    pull_policy: always
+networks:
+  default:
+    driver: bridge

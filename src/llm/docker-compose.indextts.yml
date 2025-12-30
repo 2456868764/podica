@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  index-tts:
+    build:
+      context: .
+      dockerfile: Dockerfile.indextts
+    image: index-tts:latest
+    container_name: index-tts-service
+    ports:
+      - "9000:9000"
+    environment:
+      - TTS_PROVIDER=index-tts
+      - LLM_INDEX_TTS_HF_CACHE_DIR=/home/llm/checkpoints/hf_cache
+      - PYTHONPATH=/home/llm
+    volumes:
+      # Mount checkpoints directory for model files
+      - ./checkpoints:/home/llm/checkpoints
+      # Mount example directory for voice prompts
+      - ./example:/home/llm/example
+      # Mount logs directory
+      - ./logs:/home/llm/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+

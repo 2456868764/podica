@@ -1,0 +1,19 @@
+{
+    "segments": [
+        {
+            "name": "开场致辞与背景概述",
+            "description": "Alexandra Hayes将简要介绍本期播客的主题，概述Stellantis与零跑之间的最新股权交易及其背景，为听众提供一个宏观视角。",
+            "size": "short"
+        },
+        {
+            "name": "深度探讨：股权交易的背后逻辑",
+            "description": "David Kim 和 Alexandra Hayes深入探讨Stellantis与零跑合作的具体条款及其对企业战略的影响。讨论内容包括财务影响、市场定位、Stellantis的中国战略调整及零跑的全球化机遇。",
+            "size": "long"
+        },
+        {
+            "name": "案例分析与未来展望",
+            "description": "Alexandra Hayes和David Kim通过案例分析讨论这次合作对整个汽车行业的影响，并探讨国产电动车出海的可能性和挑战。最后总结并提出未来趋势和潜在的业务应用。",
+            "size": "medium"
+        }
+    ]
+}

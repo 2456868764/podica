@@ -1,0 +1,19 @@
+{
+    "segments": [
+        {
+            "name": "Introduction to Modern Workplace Diversity and Inclusion",
+            "description": "The hosts introduce the topic of workplace diversity and inclusion (D&I), setting the stage for a deep dive into its business implications. They discuss why D&I is relevant in today’s globalized and competitive markets. Alexandra Hayes provides an overview of the current state of D&I in major industries, emphasizing both opportunities and challenges businesses face.",
+            "size": "short"
+        },
+        {
+            "name": "Strategic Implications of Diverse and Inclusive Workplaces",
+            "description": "This segment focuses on actionable insights into how diversity and inclusion can directly impact a company’s strategic goals. Alexandra explores the link between D&I and business outcomes such as innovation, employee satisfaction, and brand reputation. David shares insights on spotting D&I-related investment opportunities and avoiding potential risks in startups he has backed, providing a pragmatic perspective on the topic.",
+            "size": "medium"
+        },
+        {
+            "name": "Practical Applications and Tackling Implementation Challenges",
+            "description": "The final segment zeroes in on practical steps businesses can take to foster diversity and inclusion. David emphasizes the importance of leadership commitment and cultural shifts when building a D&I-friendly workplace. Alexandra dives into specific strategies, such as tailored employee policies and leveraging data to measure progress. Together, they discuss overcoming common challenges like communication barriers and management complexity in diverse teams.",
+            "size": "long"
+        }
+    ]
+}
