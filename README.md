@@ -1,93 +1,93 @@
-# AI播客 - Podica Studio
+# AI Podcast - Podica Studio
 
-## 项目概述
+## Project Overview
 
-Podica Studio 是一个基于AI驱动播客创作一站式解决方案，能够将各种文本内容转化为多角色对话形式的播客音频。系统利用大型语言模型（LLM）进行内容分析、结构化和对话生成，并通过文本转语音（TTS）技术将文本转换为自然流畅的语音对话。
+Podica Studio is an AI-driven all-in-one podcast creation solution that converts various text content into multi-character conversational podcast audio. The system utilizes Large Language Models (LLM) for content analysis, structuring, and dialogue generation, and converts text into natural and fluent speech dialogues through Text-to-Speech (TTS) technology.
 
-## 特色功能
+## Key Features
 
-- **多源内容输入**：支持多种内容来源灵活适配不同场景的内容需求。
-  - **直接文本输入**
-  - **文件上传** 支持PDF、DOCX、TXT等
-  - **网站URL** 自动提取URL内容
+- **Multi-source Content Input**: Supports multiple content sources to flexibly adapt to different content requirements.
+  - **Direct Text Input**
+  - **File Upload** Supports PDF, DOCX, TXT, etc.
+  - **Website URL** Automatically extracts URL content
 
-- **自动化工作流**：基于LangGraph工作流引擎，实现从内容输入到音频输出的全自动化流程，包括内容转换、大纲生成、对话稿生成、音频生成和音频合成等步骤。
-  - **完整的播客结构**：生成的音频符合播客的基本要求，包含开场、主题、结尾。
-  - **智能内容处理**：自动进行内容问答补全和摘要生成，确保输入内容的质量和完整性，为播客生成提供优质素材。
-  - **智能大纲生成**：基于输入内容和用户指令，自动生成结构化的播客大纲，包含多个段落（segments），每个段落具有明确的主题和描述。
-  - **多角色对话生成**：支持1-4个发言人同时参与对话，每个发言人具有独特的背景故事、个性特征和说话风格，营造真实的多人对话氛围。
-
-
-- **高度拟人化的语音合成**：音色、语音语调高度拟人化, 避免机械生硬或平淡无情绪的表达。
-  - **声音克隆** 
-  - **中文方言支持**：支持多种中文方言生成，包括粤语、四川话、河南话、上海话等
-  - **情绪控制** 支持对话情绪控制指令
-  - **语音标签（Voice Tags）支持**：支持在对话中嵌入语音标签（如[laughter]、[sigh]、[breathing]等），增强对话的自然度和真实感，使生成的播客更加生动。
+- **Automated Workflow**: Based on the LangGraph workflow engine, implements a fully automated process from content input to audio output, including content conversion, outline generation, transcript generation, audio generation, and audio synthesis.
+  - **Complete Podcast Structure**: Generated audio meets the basic requirements of podcasts, including opening, topics, and conclusion.
+  - **Intelligent Content Processing**: Automatically performs content Q&A completion and summarization to ensure the quality and completeness of input content, providing high-quality materials for podcast generation.
+  - **Intelligent Outline Generation**: Based on input content and user instructions, automatically generates structured podcast outlines containing multiple segments, each with clear themes and descriptions.
+  - **Multi-character Dialogue Generation**: Supports 1-4 speakers participating in conversations simultaneously, each with unique background stories, personality traits, and speaking styles, creating an authentic multi-person conversation atmosphere.
 
 
-- **灵活的配置系统**：
-  - **Speakers Profile**：可配置发言人语音特征，包括TTS服务提供商、语音ID、背景故事、个性特征等
-  - **Episode Profile**：可配置播客生成参数，包括使用的Speakers Profile、LLM模型、段落数量、语言、方言、自定义指令等
+- **Highly Humanized Speech Synthesis**: Voice timbre and intonation are highly humanized, avoiding mechanical, rigid, or flat expressionless delivery.
+  - **Voice Cloning** 
+  - **Chinese Dialect Support**: Supports multiple Chinese dialect generation, including Cantonese, Sichuanese, Henanese, Shanghainese, etc.
+  - **Emotion Control** Supports dialogue emotion control instructions
+  - **Voice Tags Support**: Supports embedding voice tags (such as [laughter], [sigh], [breathing], etc.) in dialogues to enhance the naturalness and authenticity of conversations, making generated podcasts more vivid.
 
-- **多模型支持**：用户可根据需求灵活选择。
-  - **集成多个LLM模型**  腾讯混元、OpenAI, Qwen, DeepSeek等
-  - **集成多个TTS服务** Eleven Labs、OpenAI TTS、Qwen TTS、Kokoro TTS、IndexTTS2、SoulX TTS、V3API、LaoZhang），
-  - **TTS Capability**：智能检测TTS提供商的能力，包括支持的语言、方言、语音标签、声音克隆等，自动适配可用功能。
 
-## 项目预期效果
+- **Flexible Configuration System**:
+  - **Speakers Profile**: Configurable speaker voice characteristics, including TTS service provider, voice ID, background story, personality traits, etc.
+  - **Episode Profile**: Configurable podcast generation parameters, including Speakers Profile used, LLM model, number of segments, language, dialect, custom instructions, etc.
 
-**经济效益：**
-1. **成本降低**：传统播客制作需要专业团队（主持人、编辑、后期），成本高昂。本系统可将制作成本降低80%以上，单期播客制作时间从数天缩短至几分钟。
-2. **效率提升**：自动化流程大幅提升内容生产效率，支持批量生成，满足规模化内容需求。
-3. **商业模式创新**：为内容平台、教育机构、企业提供新的内容变现渠道，创造新的商业价值。
+- **Multi-model Support**: Users can flexibly choose according to their needs.
+  - **Integrated Multiple LLM Models** Tencent Hunyuan, OpenAI, Qwen, DeepSeek, etc.
+  - **Integrated Multiple TTS Services** Eleven Labs, OpenAI TTS, Qwen TTS, Kokoro TTS, IndexTTS2, SoulX TTS, V3API, LaoZhang),
+  - **TTS Capability**: Intelligently detects TTS provider capabilities, including supported languages, dialects, voice tags, voice cloning, etc., automatically adapting to available features.
 
-**社会效益：**
-1. **内容民主化**：降低播客制作门槛，让更多创作者能够参与音频内容创作，丰富内容生态。
-2. **文化传承**：支持多语言、多角色对话，有助于文化内容的多样化表达和传播。
+## Expected Project Impact
+
+**Economic Benefits:**
+1. **Cost Reduction**: Traditional podcast production requires professional teams (hosts, editors, post-production), which is costly. This system can reduce production costs by more than 80%, shortening single-episode production time from days to minutes.
+2. **Efficiency Improvement**: Automated workflows significantly improve content production efficiency, supporting batch generation to meet large-scale content needs.
+3. **Business Model Innovation**: Provides new content monetization channels for content platforms, educational institutions, and enterprises, creating new business value.
+
+**Social Benefits:**
+1. **Content Democratization**: Lowers the barrier to podcast creation, enabling more creators to participate in audio content creation and enriching the content ecosystem.
+2. **Cultural Heritage**: Supports multi-language and multi-character dialogues, contributing to diverse expression and dissemination of cultural content.
 
 ![](./docs/images/feature.png)
 
 
 
-## 整体架构
+## Overall Architecture
 
-系统由以下主要组件构成：
+The system consists of the following main components:
 
-1. **多源内容上传**：支持从文件、网站和直接文本输入等多种渠道获取内容。
+1. **Multi-source Content Upload**: Supports content acquisition from files, websites, and direct text input.
 
-2. **智能播客生成器**：核心组件，负责内容分析、结构化、剧本生成和多角色语音合成。
+2. **Intelligent Podcast Generator**: Core component responsible for content analysis, structuring, script generation, and multi-character voice synthesis.
 
-3. **播客模板系统**：提供可定制的模板，包括播客名称、内容指令、角色设定、语音风格等。
+3. **Podcast Template System**: Provides customizable templates, including podcast name, content instructions, character settings, voice styles, etc.
 
-4. **模型管理系统**：集成多种LLM和TTS提供商，包括腾讯混元、Qwen、DeepSeek等LLM， 以及OpenAI TTS、Eleven Labs、Kokoro TTS、IndexTTS2、 Soulx TTS等模型。
+4. **Model Management System**: Integrates multiple LLM and TTS providers, including Tencent Hunyuan, Qwen, DeepSeek, and other LLMs, as well as OpenAI TTS, Eleven Labs, Kokoro TTS, IndexTTS2, Soulx TTS, and other models.
 
-技术栈
+Technology Stack
 
-- **后端框架**：Python基础库 + streamlit
-- **LLM集成**：腾讯混元、Qwen、DeekSeek、Erine、OpenAI等
-- **TTS服务**：ElevenLabs、OpenAI TTS、Kokoro TTS、Qwen TTS、IndexTTS2、SoulX TTS等
-- **工作流引擎**：LangGraph
-- **模板系统**：Jinja2
+- **Backend Framework**: Python base libraries + streamlit
+- **LLM Integration**: Tencent Hunyuan, Qwen, DeepSeek, Ernie, OpenAI, etc.
+- **TTS Services**: ElevenLabs, OpenAI TTS, Kokoro TTS, Qwen TTS, IndexTTS2, SoulX TTS, etc.
+- **Workflow Engine**: LangGraph
+- **Template System**: Jinja2
 
-## 部署说明
+## Deployment Instructions
 
-### 手动安装和启动 Podica Studio 
+### Manual Installation and Startup of Podica Studio 
 
-*** conda 安装环境 ***
+*** conda Environment Setup ***
 
 ```
 conda create --name=podcast python=3.12
 conda activate podcast
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r src/requirements.txt
 ```
-*** 配置 .env ***
+*** Configure .env ***
 
 ```
 cp src/server/.env.exmaple src/server/.env
-修改和配置 .env 环境变量
+Modify and configure .env environment variables
 ```
 
-*** streamlit 启动 Podica Stuido ***
+*** Start Podica Studio with streamlit ***
 
 ```
 streamlit run src/server/app.py
@@ -95,15 +95,15 @@ streamlit run src/server/app.py
 
 
 
-### docker 部署
+### Docker Deployment
 
-构建配置：
-阿里云： ecs.c9i.2xlarge 
+Build Configuration:
+Alibaba Cloud: ecs.c9i.2xlarge 
 CPU: 8 vCPU  Intel(R) Xeon(R) 6982P-C 
-内存：16 GiB 
+Memory: 16 GiB 
 
 
-***docker-compose.yaml***,  在 docs/docker 目录下 
+***docker-compose.yaml***, located in docs/docker directory 
 ```
 services:
   kokoro:
@@ -128,42 +128,42 @@ networks:
     driver: bridge
 ```
 
-***配置***
+***Configuration***
 
-在 docker-compose.yaml 中配置环境变量，包括：
+Configure environment variables in docker-compose.yaml, including:
 
-- KOKORO_BASE_URL ：Kokoro TTS服务URL，默认值为 http://kokoro:9000/v1, 使用 `hexgrad/Kokoro-82M-v1.1-zh` 模型提供TTS服务，用于测试。
-- ERNIE_API_KEY ：文心一言API密钥
-- V3API_API_KEY ：v3api API密钥（用于 OpenAI TTS 服务），访问 `https://api.v3.cm/` 进行注册、获取API密钥。
+- KOKORO_BASE_URL: Kokoro TTS service URL, default value is http://kokoro:9000/v1, using the `hexgrad/Kokoro-82M-v1.1-zh` model to provide TTS service for testing.
+- ERNIE_API_KEY: ERNIE API key
+- V3API_API_KEY: v3api API key (for OpenAI TTS service), visit `https://api.v3.cm/` to register and obtain API key.
 
-***启动***
+***Startup***
 
 ```bash
 docker compose up -d
 ```
 
-**访问**
+**Access**
 
-- Podica Studio 管理入口：http://localhost:8501 就进入 Podica Studio 管理界面, 用于配置播客模板、上传内容、生成播客。
+- Podica Studio Management Portal: http://localhost:8501 to enter the Podica Studio management interface for configuring podcast templates, uploading content, and generating podcasts.
 
-- Podica Studio 介绍使用视频
-  [Podica Studio 介绍使用视频](./docs/voices/podica.mp4)
+- Podica Studio Introduction and Usage Video
+  [Podica Studio Introduction and Usage Video](./docs/voices/podica.mp4)
 
 
-### 开源 TTS 模型部署
+### Open Source TTS Model Deployment
 
-** TTS 模型构建的GPU配置如下**:
-- 镜像 PyTorch  2.8.0
+** TTS Model Build GPU Configuration**:
+- Image PyTorch  2.8.0
 - Python  3.12(ubuntu22.04)
 - CUDA  12.8
 - GPU: RTX 4090(24GB) * 1
 - CPU: 16 vCPU Intel(R) Xeon(R) Gold 6430
-- 内存:120GB
-- 硬盘: 系统盘:30 GB
-- 数据盘: 100GB SSD
+- Memory: 120GB
+- Disk: System Disk: 30 GB
+- Data Disk: 100GB SSD
 
 
-在 src/llm 目录下：
+In the src/llm directory:
 
 ** Kokoro TTS **
 ```
@@ -177,7 +177,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements_kokoro.t
 TTS_PROVIDER=kokoro python service.py
 ```
 
-** Index TTS 模型**
+** Index TTS Model**
 ```
 # download model
 huggingface-cli download --resume-download IndexTeam/IndexTTS-2  --local-dir ./checkpoints/IndexTeam/IndexTTS-2
@@ -189,7 +189,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements_indextts
 TTS_PROVIDER=index-tts python service.py
 ```
 
-** Soulx TTS 模型**
+** Soulx TTS Model**
 ```
 # download model
 huggingface-cli download --resume-download Soul-AILab/SoulX-Podcast-1.7B-dialect --local-dir ./pretrained_models/SoulX-Podcast-1.7B-dialect
@@ -202,49 +202,49 @@ TTS_PROVIDER=soulx python service.py
 ```
 
 
-# 核心流程
+# Core Workflow
 
-## 工作流引擎驱动
+## Workflow Engine Driven
 
-播客生成的核心流程由LangGraph工作流引擎驱动，包含以下步骤：
-1. **多源内容** 获取原始文本内容
-   - 支持文件上传（PDF、DOCX、TXT等）
-   - 支持网站URL提取
-   - 支持直接文本输入
-2.  **内容处理**：对输入内容进行初步分析和处理   
-   - 内容问答和补全
-   - 内容摘要
-3. **大纲生成**：基于内容生成播客大纲，包含多个段落
-   - 用户指令 
-   - Episode Profile 配置 
-   - LLM 模型配置
-4. **对话稿生成**：根据大纲生成多角色对话稿
-   - 大纲
-   - Episode Profile 配置 
-   - LLM 模型配置
-5. **音频生成**：将对话稿转换为语音片段
-   - SpeakerProfile 配置 
-   - TTS 服务配置
-6. **音频合成**：将所有语音片段合并为完整播客
-
-
-![工作流图](docs/images/workflow.png)
+The core process of podcast generation is driven by the LangGraph workflow engine, including the following steps:
+1. **Multi-source Content** Obtain original text content
+   - Supports file upload (PDF, DOCX, TXT, etc.)
+   - Supports website URL extraction
+   - Supports direct text input
+2.  **Content Processing**: Preliminary analysis and processing of input content   
+   - Content Q&A and completion
+   - Content summarization
+3. **Outline Generation**: Generate podcast outline based on content, containing multiple segments
+   - User instructions 
+   - Episode Profile configuration 
+   - LLM model configuration
+4. **Transcript Generation**: Generate multi-character transcript based on outline
+   - Outline
+   - Episode Profile configuration 
+   - LLM model configuration
+5. **Audio Generation**: Convert transcript to speech segments
+   - SpeakerProfile configuration 
+   - TTS service configuration
+6. **Audio Synthesis**: Merge all speech segments into a complete podcast
 
 
-工作流定义如下：
+![Workflow Diagram](docs/images/workflow.png)
+
+
+Workflow definition:
 
 ```python
-# 定义工作流图
+# Define workflow graph
 workflow = StateGraph(PodcastState)
 
-# 添加节点
+# Add nodes
 workflow.add_node("content_transform", content_transform_node)
 workflow.add_node("generate_outline", generate_outline_node)
 workflow.add_node("generate_transcript", generate_transcript_node)
 workflow.add_node("generate_all_audio", generate_all_audio_node)
 workflow.add_node("combine_audio", combine_audio_node)
 
-# 定义边
+# Define edges
 workflow.add_edge(START, "content_transform")
 workflow.add_edge("content_transform", "generate_outline")
 workflow.add_edge("generate_outline", "generate_transcript")
@@ -259,15 +259,15 @@ graph = workflow.compile()
 
 ## Speakers Profile
 
-Speakers Profile 定义了每个发言人的语音特征，包括语音ID、背景故事、个性特征等。
+Speakers Profile defines the voice characteristics of each speaker, including voice ID, background story, personality traits, etc.
   - name: profile name
-  - tts_provider: TTS 服务提供商，例如 elevenlabs, qwen, openai, kokoro, indexTTS2 等
-  - tts_model: TTS 模型名称，根据 tts_provider 不同而变化, 例如 tts-1
-  - speakers: 发言人列表，可以包含1-4个发言人，每个发言人包含以下字段
-    - name: 发言人名称
-    - voice_id: 语音ID，用于标识不同的语音模型或服务提供商的语音。
-    - backstory: 背景故事，描述发言人的背景、经历、专业领域等。
-    - personality: 个性特征，包括说话风格、情感表达、互动方式等。
+  - tts_provider: TTS service provider, e.g., elevenlabs, qwen, openai, kokoro, indexTTS2, etc.
+  - tts_model: TTS model name, varies according to tts_provider, e.g., tts-1
+  - speakers: Speaker list, can contain 1-4 speakers, each speaker contains the following fields
+    - name: Speaker name
+    - voice_id: Voice ID, used to identify different voice models or service provider voices.
+    - backstory: Background story describing the speaker's background, experience, professional field, etc.
+    - personality: Personality traits, including speaking style, emotional expression, interaction methods, etc.
 
 ![Speakers Profile](docs/images/img2.png)
 
@@ -301,17 +301,17 @@ Speakers Profile 定义了每个发言人的语音特征，包括语音ID、背�
 
 ## Episode Profile
 
-Episode Profile 定义了每个播客的生成配置，包括使用的 Speakers Profile、LLM 模型、段落数量等。
+Episode Profile defines the generation configuration for each podcast, including the Speakers Profile used, LLM model, number of segments, etc.
   - name: profile name
-  - speaker_config: Speakers Profile 名称，引用已配置的 Speakers Profile
-  - outline_model: 大纲生成模型，例如 hunyuan-large
-  - transcript_model: 对话稿生成模型，例如 hunyuan-large
-  - outline_provider: 大纲生成模型提供商，例如 tencent等
-  - transcript_provider: 对话稿生成模型提供商，例如 tencent等
-  - num_segments: 段落数量，默认值为 4
-  - language: 播客语言，例如 中文、英文等
-  - dialect: 中文方言（可选），例如 mandarin（普通话）、cantonese（粤语）、sichuanese（四川话）、henanese（河南话）、shanghainese（上海话）。仅当 language 为"中文"时有效。方言选项会根据所选 TTS provider 的 capability 动态显示。
-  - default_briefing: 用于生成播客时的自定义 Prompt 指令
+  - speaker_config: Speakers Profile name, references the configured Speakers Profile
+  - outline_model: Outline generation model, e.g., hunyuan-large
+  - transcript_model: Transcript generation model, e.g., hunyuan-large
+  - outline_provider: Outline generation model provider, e.g., tencent, etc.
+  - transcript_provider: Transcript generation model provider, e.g., tencent, etc.
+  - num_segments: Number of segments, default value is 4
+  - language: Podcast language, e.g., Chinese, English, etc.
+  - dialect: Chinese dialect (optional), e.g., mandarin (Mandarin), cantonese (Cantonese), sichuanese (Sichuanese), henanese (Henanese), shanghainese (Shanghainese). Only effective when language is "Chinese". Dialect options will be dynamically displayed based on the selected TTS provider's capability.
+  - default_briefing: Custom Prompt instructions for podcast generation
 
 ![Episode Profile](docs/images/img3.png)  
 
@@ -330,15 +330,15 @@ Episode Profile 定义了每个播客的生成配置，包括使用的 Speakers 
 ```
 
 
-## Outline（大纲）
+## Outline
 
-outline 定义了播客的结构，包括段落数量、每个段落的主题等。
-  - segments: 段落列表，每个段落包含以下字段
-    - name: 段落名称
-    - description: 段落描述
-    - size: 段落长度，可选值为 short, medium, long，默认值为 short
+outline defines the structure of the podcast, including the number of segments and the theme of each segment.
+  - segments: Segment list, each segment contains the following fields
+    - name: Segment name
+    - description: Segment description
+    - size: Segment length, optional values are short, medium, long, default value is short
 
-### outline 生成大纲示例
+### Outline Generation Example
 
 ```json
 {
@@ -357,7 +357,7 @@ outline 定义了播客的结构，包括段落数量、每个段落的主题等
 }
 ```
 
-### outline 生成大纲 Prompt
+### Outline Generation Prompt
 
 ````
 You are an AI assistant specialized in creating podcast outlines. Your task is to create a detailed outline for a podcast episode based on a provided briefing. The outline you create will be used to generate the podcast transcript.
@@ -446,33 +446,33 @@ Please provide your outline now, following the format and guidelines provided ab
 
 ````
 
-## Transcript（对话稿）
+## Transcript
 
-Transcript 定义了播客的对话内容，每个对话包含发言人的名称和他们的对话。
-- speaker: 发言人名称，引用已配置的 Speakers Profile 中的发言人
-- dialogue: 发言人的对话内容（支持方言和语音标签）
-- emotion: 发言人的语气和情绪类别（动态生成的情感描述）
+Transcript defines the dialogue content of the podcast, each dialogue contains the speaker's name and their dialogue.
+- speaker: Speaker name, references the speaker in the configured Speakers Profile
+- dialogue: Speaker's dialogue content (supports dialects and voice tags)
+- emotion: Speaker's tone and emotion category (dynamically generated emotion description)
 
-### 方言支持
+### Dialect Support
 
-当 Episode Profile 中设置了 `dialect` 字段（非 mandarin）时，生成的对话内容将使用指定的方言：
-- **粤语（cantonese）**：使用"我哋"、"係"、"唔"等粤语词汇
-- **四川话（sichuanese）**：使用"要得"、"巴适"、"噻"等四川话词汇
-- **河南话（henanese）**：使用"恁"、"中不中"、"得劲儿"等河南话词汇
-- **上海话（shanghainese）**：使用"侬"、"阿拉"、"覅"等上海话词汇
+When the `dialect` field is set in Episode Profile (non-mandarin), the generated dialogue content will use the specified dialect:
+- **Cantonese (cantonese)**: Uses Cantonese vocabulary such as "我哋", "係", "唔", etc.
+- **Sichuanese (sichuanese)**: Uses Sichuanese vocabulary such as "要得", "巴适", "噻", etc.
+- **Henanese (henanese)**: Uses Henanese vocabulary such as "恁", "中不中", "得劲儿", etc.
+- **Shanghainese (shanghainese)**: Uses Shanghainese vocabulary such as "侬", "阿拉", "覅", etc.
 
-### 语音标签（Voice Tags）
+### Voice Tags
 
-支持的 TTS 提供商（如 SoulX）可以在对话中嵌入语音标签，增强自然度：
-- `[laughter]` - 笑声
-- `[sigh]` - 叹息
-- `[breathing]` - 呼吸声
-- `[coughing]` - 咳嗽
-- `[throat_clearing]` - 清嗓子
+Supported TTS providers (such as SoulX) can embed voice tags in dialogues to enhance naturalness:
+- `[laughter]` - Laughter
+- `[sigh]` - Sigh
+- `[breathing]` - Breathing sound
+- `[coughing]` - Cough
+- `[throat_clearing]` - Throat clearing
 
-语音标签会自动嵌入到对话文本中，使生成的语音更加自然和真实。
+Voice tags are automatically embedded into dialogue text, making the generated speech more natural and authentic.
 
-### 1. Transcript 生成示例
+### 1. Transcript Generation Example
 
 
 ```json
@@ -496,7 +496,7 @@ Transcript 定义了播客的对话内容，每个对话包含发言人的名称
 ]
 ```
 
-### 2. Transcript 生成 Prompt
+### 2. Transcript Generation Prompt
 
 ````
 You are an AI assistant specialized in creating podcast transcripts. 
@@ -525,7 +525,7 @@ Example (Dialogue in {{ dialect_display }}):
 "你咋个恁么摸嘛！搞快点儿撒，电影都要开场喽，等得花儿都谢完咯，再慢点儿怕连票都白买了！
 今天这个回锅肉才叫安逸惨了，色香味硬是全占完，吃起满嘴香，巴适得我都想喊天！
 你莫紧到在那塌塌旋来旋去的嘛，赶紧过来搭把手，屋头都乱成鸡窝了，看起都心烦！
-他那个娃儿一天到黑费得不得了，不是爬树掏鸟窝就是撵到狗跑，简直就是个 “费头子”，管都管不住！
+他那个娃儿一天到黑费得不得了，不是爬树掏鸟窝就是撵到狗跑，简直就是个 "费头子"，管都管不住！
 你看你穿得周吴郑王的，是不是要切相亲哦？搞得这么抻展，生怕别个看不上你嗦！"
 {% elif dialect == "henanese" %}
 "俺说恁这衣裳在哪儿买的呀？瞅着可真排场，赶明儿俺也去扯一块布做一身中不中？
@@ -708,31 +708,32 @@ Make it informative, engaging, and natural-sounding while adhering to the format
 ````
 
 
-# 测试播客生成
+# Test Podcast Generation
 
-## 1. 运营20年后，养乐多关闭了上海工厂 (4 个 Speaker, OpenAI TTS 生成)
+## 1. After 20 Years of Operation, Yakult Closes Shanghai Factory (4 Speakers, OpenAI TTS Generated)
 
-- [养乐多播客示例](./docs/voices/yangleduo.mp3)
-
-
-## 2. 雷军：世界会默默奖赏勤奋厚道的人 (3 个 Speaker, OpenAI TTS 生成)
-- [雷军播客示例](./docs/voices/leijun.mp3)
-
-## 3. 白玉兰都有谁拿奖了？(一个Speaker, OpenAI TTS 生成)
-
-- [白玉兰播客示例](./docs/voices/white.mp3) 
-
-## 4. Higress Agent网关插件开发挑战赛竞赛( 2 个 Speaker， Kokoro TTS 生成 )
-
-- [Higress Agent播客示例](./docs/voices/higress.mp3) 
-
-## 5. 声音克隆（郭德纲+甄嬛）+ 粤语 + 语音标签 （ 2 个 Speaker, Soulx TTS 生成）
-
-- [Soulx TTS 播客示例](./docs/voices/demooo0.mp3)
+- [Yakult Podcast Example](./docs/voices/yangleduo.mp3)
 
 
-# Podica Studio PPT和视频介绍
-- [Podica Studio 介绍使用视频 Bilibili](https://www.bilibili.com/video/BV1xvmYBsELS)
+## 2. Lei Jun: The World Will Silently Reward Diligent and Honest People (3 Speakers, OpenAI TTS Generated)
+- [Lei Jun Podcast Example](./docs/voices/leijun.mp3)
+
+## 3. Who Won the Magnolia Awards? (1 Speaker, OpenAI TTS Generated)
+
+- [Magnolia Podcast Example](./docs/voices/white.mp3) 
+
+## 4. Higress Agent Gateway Plugin Development Challenge Competition (2 Speakers, Kokoro TTS Generated)
+
+- [Higress Agent Podcast Example](./docs/voices/higress.mp3) 
+
+## 5. Voice Cloning (Guo Degang + Zhen Huan) + Cantonese + Voice Tags (2 Speakers, Soulx TTS Generated)
+
+- [Soulx TTS Podcast Example](./docs/voices/demooo0.mp3)
+
+
+# Podica Studio PPT and Video Introduction
+- [Podica Studio Introduction and Usage Video Bilibili](https://www.bilibili.com/video/BV1xvmYBsELS)
+
 
 
 
